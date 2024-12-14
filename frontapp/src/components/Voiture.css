@@ -1,0 +1,28 @@
+.voiture-card {
+    border: 1px solid #007bff; /* Couleur de bordure */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #e7f1ff; /* Couleur de fond douce */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 300px; /* Ajustez la largeur selon vos besoins */
+    text-align: center; /* Centrer le texte */
+}
+
+.voiture-card:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée */
+}
+
+h2 {
+    color: #007bff; /* Couleur du texte */
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #333; /* Couleur du texte */
+    margin: 5px 0;
+    font-size: 1rem;
+} 
